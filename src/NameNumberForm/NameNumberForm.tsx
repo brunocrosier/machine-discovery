@@ -12,7 +12,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/use-toast";
 import { PlusIcon, Trash2, SparklesIcon } from "lucide-react";
-import JSONFile from "@/default-values.json";
+import JSONFile from "../../public/default-values.json";
 import { useSearchParams } from "react-router-dom";
 import { useEffect } from "react";
 import { defaultRows } from "./defaultRows";
